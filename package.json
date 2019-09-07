@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "repository": "git@github.com:wochap/netlify-functions-test.git",
+  "author": "Gean <gean.marroquin@gmail.com>",
+  "license": "MIT"
+}
