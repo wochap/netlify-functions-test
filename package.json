@@ -1,7 +1,14 @@
 {
   "private": true,
   "version": "1.0.0",
+  "scripts": {
+    "dev:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
+  },
   "repository": "git@github.com:wochap/netlify-functions-test.git",
   "author": "Gean <gean.marroquin@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
 }
