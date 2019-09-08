@@ -48,15 +48,20 @@ exports.handler = (event, context, callback) => {
       statusCode: 200,
       headers: {
         'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'POST',
       },
       body: JSON.stringify({
         data: answers
       })
     })
   }).catch(error => {
-    console.log(error)
+    console.error(error)
     callback(null, {
       statusCode: 200,
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'POST',
+      },
       body: JSON.stringify({
         error: error,
       })
