@@ -29,7 +29,7 @@ exports.handler = (event, context, callback) => {
       'Accept-Encoding': 'gzip, deflate',
       'Connection': 'keep-alive',
       'content-type': 'application/x-www-form-urlencoded',
-      'Cookie': 'ASP.NET_SessionId=nvyvrpjvao54hii5t1qpm3kb',
+      'Cookie': 'ASP.NET_SessionId=sdbpxcrztab13ixxc0pipwia',
       'Host': 'sierdgtt.mtc.gob.pe',
       'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
     },
